@@ -1,0 +1,17 @@
+/* nav bar spacing*/
+.navbar {
+    padding: 30px;
+}
+
+#navbarNav {
+    padding-right: 30px;
+}
+
+/* overriding bootstrap navbar*/
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+}
